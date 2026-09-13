@@ -4,405 +4,1152 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ittefaq Boring Gase & Electric Store | Sahiwal</title>
-<meta name="description" content="Ittefaq Boring Gase and Electric Store, Gujjar Market Adda Shabeel Sahiwal. Water pumps, hand pumps, motors, boring services, gas cylinders and complete water pipe supplies.">
-<meta name="keywords" content="Ittefaq Boring Sahiwal, water pump Sahiwal, boring services, hand pump, electric motor, water pipes, gas cylinder">
-<meta name="author" content="Ittefaq Boring Gase and Electric Store">
-<meta name="theme-color" content="#0b1f3a">
-<meta property="og:title" content="Ittefaq Boring Gase & Electric Store">
-<meta property="og:description" content="Quality water pumps, boring supplies and electric store products in Sahiwal.">
-<meta property="og:type" content="website">
+
+<title>Ittefaq Store | Boring, Gase & Electric | Sahiwal</title>
+
+<meta name="description" content="Ittefaq Boring Gase and Electric Store - Water pumps, boring services, hand pumps, motors, water pipes and electric supplies in Sahiwal.">
+
+<meta name="theme-color" content="#071a33">
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
 :root{
-  --navy:#081b33;
-  --blue:#1167e8;
-  --sky:#eaf3ff;
-  --text:#12233b;
-  --muted:#64748b;
-  --white:#fff;
-  --line:#e7edf5;
-  --green:#16a34a;
+--navy:#071a33;
+--navy2:#0d2949;
+--blue:#1683ff;
+--cyan:#35c8ff;
+--white:#fff;
+--text:#142b45;
+--muted:#718096;
+--bg:#f5f8fc;
+--line:#e6edf5;
+--green:#19c875;
 }
+
 *{box-sizing:border-box;margin:0;padding:0}
+
 html{scroll-behavior:smooth}
+
 body{
-  font-family:Inter,Segoe UI,Arial,sans-serif;
-  color:var(--text);
-  background:#f7faff;
-  line-height:1.6;
+font-family:Inter,Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.6;
 }
+
 a{text-decoration:none;color:inherit}
-button,a{cursor:pointer}
-.container{width:min(1120px,92%);margin:auto}
+
+.container{
+width:min(1160px,92%);
+margin:auto;
+}
+
 header{
-  background:rgba(255,255,255,.96);
-  border-bottom:1px solid var(--line);
-  position:sticky;top:0;z-index:50;
-  backdrop-filter:blur(12px);
+background:rgba(7,26,51,.96);
+color:white;
+position:sticky;
+top:0;
+z-index:100;
+border-bottom:1px solid #ffffff14;
+backdrop-filter:blur(15px);
 }
+
 .nav{
-  min-height:76px;display:flex;align-items:center;
-  justify-content:space-between;gap:20px;
+height:82px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:25px;
 }
-.logo{display:flex;align-items:center;gap:12px}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
 .logo-icon{
-  width:48px;height:48px;border-radius:14px;
-  background:var(--navy);color:white;display:grid;place-items:center;
-  font-size:25px;box-shadow:0 8px 20px #081b3320;
+width:48px;
+height:48px;
+display:grid;
+place-items:center;
+background:linear-gradient(135deg,var(--blue),var(--cyan));
+border-radius:14px;
+font-size:25px;
+box-shadow:0 8px 25px #1683ff35;
 }
-.logo strong{font-size:18px;display:block;line-height:1.2}
-.logo small{font-size:11px;color:var(--muted)}
-.navlinks{display:flex;align-items:center;gap:24px;font-size:14px;font-weight:600}
-.navlinks a:hover{color:var(--blue)}
+
+.logo strong{
+display:block;
+font-size:17px;
+font-weight:900;
+letter-spacing:.3px;
+}
+
+.logo small{
+display:block;
+font-size:10px;
+color:#a9c1dc;
+letter-spacing:1px;
+text-transform:uppercase;
+}
+
+.navlinks{
+display:flex;
+align-items:center;
+gap:27px;
+font-size:13px;
+font-weight:700;
+}
+
+.navlinks a{color:#dbe8f7}
+.navlinks a:hover{color:var(--cyan)}
+
 .btn{
-  display:inline-flex;align-items:center;justify-content:center;
-  gap:9px;padding:13px 21px;border-radius:10px;
-  font-size:14px;font-weight:700;border:1px solid transparent;
-  transition:.2s;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:9px;
+padding:13px 21px;
+border-radius:10px;
+font-size:13px;
+font-weight:800;
+border:1px solid transparent;
+transition:.25s;
 }
-.btn-primary{background:var(--blue);color:white;box-shadow:0 8px 20px #1167e826}
-.btn-primary:hover{background:#0756cc;transform:translateY(-2px)}
-.btn-outline{border-color:#d5e0ef;background:white;color:var(--navy)}
-.btn-green{background:var(--green);color:white}
-.menu{display:none;background:white;border:1px solid var(--line);border-radius:8px;padding:8px;font-size:22px}
+
+.btn:hover{transform:translateY(-2px)}
+
+.btn-primary{
+background:linear-gradient(135deg,#1683ff,#35aaff);
+color:white;
+box-shadow:0 10px 25px #1683ff35;
+}
+
+.btn-outline{
+border-color:#d9e5f2;
+background:white;
+color:var(--navy);
+}
+
+.btn-green{
+background:var(--green);
+color:white;
+}
+
+.menu{
+display:none;
+background:transparent;
+border:1px solid #ffffff30;
+color:white;
+border-radius:9px;
+padding:8px 11px;
+font-size:22px;
+}
+
+/* HERO */
+
 .hero{
-  background:linear-gradient(135deg,#f8fbff 0%,#e9f3ff 100%);
-  padding:90px 0 76px;overflow:hidden;
+background:
+radial-gradient(circle at 90% 10%,#164d7e 0,transparent 35%),
+linear-gradient(135deg,#071a33,#0c2948);
+color:white;
+padding:95px 0 85px;
+overflow:hidden;
 }
-.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1.04fr .96fr;
+gap:60px;
+align-items:center;
+}
+
 .eyebrow{
-  display:inline-flex;align-items:center;gap:8px;
-  background:#dbeafe;color:#1558b0;border-radius:30px;
-  padding:7px 13px;font-size:12px;font-weight:800;
-  margin-bottom:20px;
+display:inline-flex;
+align-items:center;
+gap:9px;
+background:#ffffff0d;
+border:1px solid #ffffff1c;
+padding:8px 13px;
+border-radius:30px;
+font-size:11px;
+font-weight:800;
+letter-spacing:.6px;
+color:#bcd6f2;
+margin-bottom:22px;
 }
-.dot{width:7px;height:7px;background:#22c55e;border-radius:50%}
+
+.dot{
+width:7px;
+height:7px;
+background:#22d68a;
+border-radius:50%;
+box-shadow:0 0 12px #22d68a;
+}
+
 h1{
-  font-size:clamp(35px,4.5vw,60px);
-  line-height:1.12;letter-spacing:-1.7px;
-  color:var(--navy);margin-bottom:20px;
+font-size:clamp(37px,4.5vw,62px);
+line-height:1.1;
+letter-spacing:-2px;
+font-weight:900;
+margin-bottom:22px;
 }
-h1 span{color:var(--blue)}
-.hero p{font-size:17px;color:var(--muted);max-width:530px;margin-bottom:30px}
-.actions{display:flex;gap:12px;flex-wrap:wrap}
-.stats{display:flex;gap:30px;margin-top:35px;flex-wrap:wrap}
-.stat strong{display:block;font-size:25px;color:var(--navy)}
-.stat span{font-size:12px;color:var(--muted)}
-.hero-visual{
-  background:var(--navy);border-radius:28px;padding:20px;
-  min-height:370px;position:relative;overflow:hidden;
-  box-shadow:0 25px 60px #0b1f3a25;
+
+h1 span{
+background:linear-gradient(90deg,#42c9ff,#1683ff);
+-webkit-background-clip:text;
+color:transparent;
 }
-.hero-visual:before{
-  content:"";position:absolute;width:280px;height:280px;
-  border:1px solid #ffffff22;border-radius:50%;
-  right:-80px;top:-80px;
+
+.hero p{
+font-size:16px;
+line-height:1.9;
+color:#b8cbe1;
+max-width:520px;
+margin-bottom:32px;
 }
-.visual-top{display:flex;justify-content:space-between;color:#c5d7f1;font-size:12px;position:relative}
-.visual-badge{background:#ffffff16;padding:7px 11px;border-radius:20px}
-.pump-art{
-  height:235px;display:grid;place-items:center;position:relative;
+
+.actions{
+display:flex;
+gap:12px;
+flex-wrap:wrap;
 }
+
+.hero .btn-outline{
+background:#ffffff0a;
+border-color:#ffffff28;
+color:white;
+}
+
+.stats{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+margin-top:40px;
+padding-top:25px;
+border-top:1px solid #ffffff18;
+}
+
+.stat strong{
+display:block;
+font-size:24px;
+font-weight:900;
+color:white;
+}
+
+.stat span{
+font-size:11px;
+color:#9bb4cf;
+}
+
+/* PRODUCT SHOWCASE */
+
+.showcase{
+background:linear-gradient(145deg,#10385d,#071a33);
+border:1px solid #ffffff18;
+border-radius:28px;
+padding:22px;
+box-shadow:0 30px 70px #0003;
+position:relative;
+overflow:hidden;
+}
+
+.showcase:before{
+content:"";
+position:absolute;
+width:300px;
+height:300px;
+border:1px solid #ffffff14;
+border-radius:50%;
+right:-120px;
+top:-120px;
+}
+
+.showcase-top{
+display:flex;
+justify-content:space-between;
+align-items:center;
+font-size:11px;
+color:#a7c5e5;
+position:relative;
+}
+
+.tag{
+background:#ffffff12;
+border:1px solid #ffffff18;
+padding:7px 11px;
+border-radius:30px;
+}
+
+.product-art{
+height:270px;
+display:grid;
+place-items:center;
+position:relative;
+}
+
+.product-art:before{
+content:"";
+position:absolute;
+width:245px;
+height:245px;
+border-radius:50%;
+background:radial-gradient(circle,#1683ff30,transparent 65%);
+}
+
 .pump{
-  width:210px;height:105px;border-radius:55px 25px 25px 55px;
-  background:linear-gradient(135deg,#d9e5f3,#7891ad);
-  border:5px solid #506982;position:relative;
-  box-shadow:0 18px 35px #0004;
+position:relative;
+width:210px;
+height:115px;
+border-radius:25px 55px 55px 25px;
+background:linear-gradient(145deg,#eaf5ff,#7898b6);
+border:5px solid #52718e;
+box-shadow:0 25px 45px #0005;
+z-index:2;
 }
+
 .pump:before{
-  content:"";position:absolute;left:55px;top:17px;
-  width:75px;height:75px;border-radius:50%;
-  background:#173451;border:7px solid #b8cadc;
+content:"";
+position:absolute;
+width:82px;
+height:82px;
+left:43px;
+top:12px;
+border-radius:50%;
+background:#0a2744;
+border:7px solid #c4d7e9;
+box-shadow:inset 0 0 0 7px #365b7e;
 }
+
 .pump:after{
-  content:"";position:absolute;left:81px;top:30px;
-  width:23px;height:49px;border-radius:50%;
-  background:#5c84ad;
+content:"";
+position:absolute;
+width:20px;
+height:53px;
+left:74px;
+top:27px;
+border-radius:50%;
+background:#6799c5;
 }
+
 .pipe{
-  position:absolute;right:18%;top:82px;width:75px;height:70px;
-  border:16px solid #b4c9df;border-left:0;border-radius:0 35px 35px 0;
+position:absolute;
+width:90px;
+height:90px;
+border:16px solid #b5cce2;
+border-left:0;
+border-radius:0 35px 35px 0;
+right:15%;
+top:70px;
+z-index:1;
 }
-.pump-base{
-  position:absolute;bottom:8px;width:250px;height:12px;
-  background:#526d8b;border-radius:20px;
+
+.base{
+position:absolute;
+bottom:20px;
+width:245px;
+height:12px;
+background:#527391;
+border-radius:20px;
 }
-.visual-bottom{display:flex;justify-content:space-between;align-items:end;color:white}
-.visual-bottom strong{font-size:19px}
-.visual-bottom small{display:block;color:#b9cae0;font-size:12px}
-.water{color:#64b5ff;font-size:26px}
-section{padding:78px 0}
-.section-head{text-align:center;max-width:650px;margin:0 auto 38px}
-.section-head .label{color:var(--blue);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:2px}
-h2{font-size:clamp(27px,3.5vw,39px);line-height:1.2;color:var(--navy);margin:10px 0 13px;letter-spacing:-.7px}
-.section-head p{color:var(--muted);font-size:15px}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{
-  background:white;border:1px solid var(--line);border-radius:18px;
-  padding:25px;transition:.25s;
+
+.showcase-bottom{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:10px;
 }
-.card:hover{transform:translateY(-5px);box-shadow:0 16px 35px #0b1f3a0d;border-color:#cbdcf4}
-.card-icon{
-  width:58px;height:58px;background:var(--sky);border-radius:15px;
-  display:grid;place-items:center;font-size:29px;margin-bottom:20px;
+
+.showcase-bottom strong{
+display:block;
+font-size:18px;
+color:white;
 }
-.card h3{font-size:19px;margin-bottom:8px;color:var(--navy)}
-.card p{font-size:13px;color:var(--muted);margin-bottom:16px}
-.card a{font-size:13px;color:var(--blue);font-weight:800}
-.about{background:white}
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}
-.about-image{
-  background:linear-gradient(135deg,#dcecff,#f6faff);
-  border-radius:25px;min-height:340px;display:grid;place-items:center;
-  padding:25px;position:relative;
+
+.showcase-bottom small{
+display:block;
+font-size:11px;
+color:#a9c3df;
 }
-.about-image .big-icon{font-size:100px}
-.about-image .tag{
-  position:absolute;bottom:25px;left:25px;background:white;
-  padding:13px 18px;border-radius:12px;box-shadow:0 10px 30px #0b1f3a12;
-  font-size:13px;font-weight:800;color:var(--navy);
+
+.water-icon{font-size:32px}
+
+/* SECTIONS */
+
+section{padding:85px 0}
+
+.section-head{
+text-align:center;
+max-width:650px;
+margin:0 auto 45px;
 }
-.about-text p{color:var(--muted);font-size:15px;margin:15px 0 22px}
-.checks{display:grid;gap:12px;margin-bottom:25px}
-.check{display:flex;gap:10px;font-size:14px;font-weight:600}
-.check b{color:#16a34a}
-.contact{background:var(--navy);color:white}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:start}
+
+.label{
+font-size:11px;
+font-weight:900;
+letter-spacing:2px;
+text-transform:uppercase;
+color:var(--blue);
+}
+
+h2{
+font-size:clamp(28px,3.5vw,42px);
+line-height:1.2;
+letter-spacing:-1px;
+color:var(--navy);
+margin:12px 0 15px;
+font-weight:900;
+}
+
+.section-head p{
+color:var(--muted);
+font-size:14px;
+}
+
+/* PRODUCTS */
+
+.products{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:22px;
+}
+
+.product-card{
+background:white;
+border:1px solid var(--line);
+border-radius:18px;
+overflow:hidden;
+transition:.25s;
+}
+
+.product-card:hover{
+transform:translateY(-6px);
+box-shadow:0 18px 45px #0b1f3a12;
+border-color:#c9ddf6;
+}
+
+.product-image{
+height:155px;
+display:grid;
+place-items:center;
+background:linear-gradient(145deg,#e8f3ff,#f7fbff);
+font-size:67px;
+position:relative;
+}
+
+.product-image:after{
+content:"";
+position:absolute;
+width:100px;
+height:100px;
+border-radius:50%;
+border:1px solid #1683ff18;
+}
+
+.product-info{padding:23px}
+
+.product-info h3{
+font-size:18px;
+font-weight:900;
+color:var(--navy);
+margin-bottom:8px;
+}
+
+.product-info p{
+font-size:13px;
+color:var(--muted);
+margin-bottom:17px;
+}
+
+.product-info a{
+font-size:12px;
+font-weight:900;
+color:var(--blue);
+}
+
+/* SERVICES */
+
+.services{
+background:white;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:18px;
+}
+
+.service{
+padding:25px 20px;
+border:1px solid var(--line);
+border-radius:16px;
+background:#fbfdff;
+text-align:center;
+}
+
+.service-icon{
+font-size:32px;
+margin-bottom:12px;
+}
+
+.service h3{
+font-size:15px;
+color:var(--navy);
+margin-bottom:7px;
+}
+
+.service p{
+font-size:12px;
+color:var(--muted);
+}
+
+/* ABOUT */
+
+.about-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:65px;
+align-items:center;
+}
+
+.about-visual{
+min-height:370px;
+border-radius:25px;
+background:
+linear-gradient(135deg,#dbeeff,#f7fbff);
+display:grid;
+place-items:center;
+position:relative;
+overflow:hidden;
+}
+
+.about-visual .main-icon{
+font-size:105px;
+filter:drop-shadow(0 15px 15px #0b1f3a18);
+}
+
+.about-badge{
+position:absolute;
+bottom:25px;
+left:25px;
+background:white;
+padding:15px 19px;
+border-radius:13px;
+box-shadow:0 12px 30px #0b1f3a12;
+font-size:12px;
+font-weight:900;
+color:var(--navy);
+}
+
+.about-text p{
+font-size:14px;
+color:var(--muted);
+margin:18px 0 25px;
+}
+
+.checks{
+display:grid;
+gap:13px;
+margin-bottom:28px;
+}
+
+.check{
+display:flex;
+align-items:center;
+gap:11px;
+font-size:13px;
+font-weight:700;
+}
+
+.check b{
+width:23px;
+height:23px;
+border-radius:50%;
+display:grid;
+place-items:center;
+background:#dcfce9;
+color:#16a34a;
+font-size:12px;
+}
+
+/* CONTACT */
+
+.contact{
+background:var(--navy);
+color:white;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
 .contact h2{color:white}
-.contact p{color:#b8c8dd;font-size:15px}
-.contact-card{display:grid;gap:13px;margin-top:25px}
-.contact-item{display:flex;gap:14px;align-items:center}
-.contact-item .icon{width:45px;height:45px;border-radius:12px;background:#ffffff12;display:grid;place-items:center;font-size:20px}
-.contact-item strong{display:block;font-size:14px}
-.contact-item span{font-size:13px;color:#b8c8dd}
-.contact-box{background:white;color:var(--text);border-radius:20px;padding:30px}
-.contact-box h3{font-size:22px;color:var(--navy);margin-bottom:8px}
-.contact-box p{color:var(--muted);font-size:13px;margin-bottom:20px}
-.contact-box .btn{width:100%;margin-top:10px}
-footer{background:#061426;color:#91a6c1;padding:25px 0;font-size:12px}
-.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+
+.contact p{
+color:#adc3dc;
+font-size:14px;
+margin:15px 0 25px;
+}
+
+.contact-list{
+display:grid;
+gap:18px;
+}
+
+.contact-item{
+display:flex;
+align-items:center;
+gap:14px;
+}
+
+.contact-item .icon{
+width:45px;
+height:45px;
+display:grid;
+place-items:center;
+border-radius:12px;
+background:#ffffff0d;
+border:1px solid #ffffff12;
+font-size:20px;
+}
+
+.contact-item strong{
+display:block;
+font-size:13px;
+}
+
+.contact-item span{
+font-size:12px;
+color:#adc3dc;
+}
+
+.contact-box{
+background:white;
+border-radius:20px;
+padding:30px;
+color:var(--text);
+}
+
+.contact-box h3{
+font-size:23px;
+font-weight:900;
+color:var(--navy);
+margin-bottom:8px;
+}
+
+.contact-box p{
+color:var(--muted);
+font-size:13px;
+margin-bottom:20px;
+}
+
+.contact-box .btn{
+width:100%;
+margin-top:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#041326;
+color:#8ca5c1;
+padding:28px 0;
+font-size:12px;
+}
+
+.footer-inner{
+display:flex;
+justify-content:space-between;
+gap:20px;
+flex-wrap:wrap;
+}
+
 .footer-inner strong{color:white}
+
+/* FLOATING WHATSAPP */
+
 .whatsapp{
-  position:fixed;right:20px;bottom:20px;width:58px;height:58px;
-  background:#25d366;color:white;border-radius:50%;display:grid;
-  place-items:center;font-size:28px;box-shadow:0 8px 25px #0003;
-  z-index:100;
+position:fixed;
+right:20px;
+bottom:20px;
+width:60px;
+height:60px;
+border-radius:50%;
+background:#25d366;
+color:white;
+display:grid;
+place-items:center;
+font-size:29px;
+box-shadow:0 8px 30px #0004;
+z-index:200;
+transition:.2s;
 }
+
 .whatsapp:hover{transform:scale(1.08)}
-@media(max-width:850px){
-  .navlinks{display:none;position:absolute;top:76px;left:0;right:0;
-    background:white;padding:20px;flex-direction:column;align-items:stretch;
-    border-bottom:1px solid var(--line)}
-  .navlinks.show{display:flex}
-  .menu{display:block}
-  .hero{padding:55px 0}
-  .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:35px}
-  .hero-visual{min-height:320px}
-  .cards{grid-template-columns:repeat(2,1fr)}
-  .about-image{min-height:250px}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.hero-grid,
+.about-grid,
+.contact-grid{
+grid-template-columns:1fr;
+gap:40px;
 }
+
+.navlinks{
+display:none;
+position:absolute;
+top:82px;
+left:0;
+right:0;
+background:var(--navy);
+padding:25px;
+flex-direction:column;
+align-items:stretch;
+border-top:1px solid #ffffff15;
+}
+
+.navlinks.show{display:flex}
+
+.menu{display:block}
+
+.hero{padding:60px 0}
+
+.products{grid-template-columns:repeat(2,1fr)}
+
+.service-grid{grid-template-columns:repeat(2,1fr)}
+
+}
+
 @media(max-width:520px){
-  .logo strong{font-size:15px}
-  .logo small{font-size:10px}
-  h1{font-size:37px;letter-spacing:-1px}
-  .hero p{font-size:15px}
-  .btn{padding:12px 16px}
-  .cards{grid-template-columns:1fr}
-  section{padding:55px 0}
-  .stats{gap:20px}
-  .contact-box{padding:23px}
+
+.logo strong{font-size:14px}
+
+.logo small{font-size:9px}
+
+h1{
+font-size:38px;
+letter-spacing:-1px;
 }
+
+.hero p{font-size:14px}
+
+.stats{gap:20px}
+
+.products{grid-template-columns:1fr}
+
+.service-grid{grid-template-columns:1fr}
+
+section{padding:58px 0}
+
+.showcase{padding:18px}
+
+.product-art{height:230px}
+
+.about-visual{min-height:260px}
+
+.contact-box{padding:23px}
+
+.btn{padding:12px 16px}
+
+}
+
 </style>
 </head>
+
 <body>
 
 <header>
-  <div class="container nav">
-    <a href="#" class="logo">
-      <div class="logo-icon">💧</div>
-      <div>
-        <strong>Ittefaq Store</strong>
-        <small>Boring • Gase • Electric</small>
-      </div>
-    </a>
-    <nav class="navlinks" id="navlinks">
-      <a href="#home">Home</a>
-      <a href="#products">Products</a>
-      <a href="#about">About Us</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="btn btn-primary" href="https://wa.me/923006907796" target="_blank">💬 WhatsApp</a>
-    <button class="menu" id="menu" aria-label="Open menu">☰</button>
-  </div>
+<div class="container nav">
+
+<a href="#" class="logo">
+<div class="logo-icon">💧</div>
+<div>
+<strong>ITTEFAQ STORE</strong>
+<small>Boring • Gase • Electric</small>
+</div>
+</a>
+
+<nav class="navlinks" id="navlinks">
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#services">Services</a>
+<a href="#about">About Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<a class="btn btn-primary" href="https://wa.me/923006907796" target="_blank">💬 WhatsApp</a>
+
+<button class="menu" id="menu" aria-label="Open menu">☰</button>
+
+</div>
 </header>
 
 <main>
+
+<!-- HERO -->
+
 <section class="hero" id="home">
-  <div class="container hero-grid">
-    <div>
-      <div class="eyebrow"><span class="dot"></span> Trusted Local Store • Sahiwal</div>
-      <h1>Quality Water Pumps & <span>Electric Supplies.</span></h1>
-      <p>
-        Welcome to Ittefaq Boring Gase and Electric Store.
-        Water pumps, boring supplies, hand pumps, motors,
-        pipes and complete electric store products — all in one place.
-      </p>
-      <div class="actions">
-        <a class="btn btn-primary" href="#products">Explore Products →</a>
-        <a class="btn btn-outline" href="https://wa.me/923006907796?text=Assalam%20o%20Alaikum%2C%20mujhe%20aapke%20products%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">💬 Get a Quote</a>
-      </div>
-      <div class="stats">
-        <div class="stat"><strong>01</strong><span>Local Store</span></div>
-        <div class="stat"><strong>100%</strong><span>Customer Focus</span></div>
-        <div class="stat"><strong>📍</strong><span>Sahiwal</span></div>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <div class="visual-top">
-        <span>ITTEFAQ • ENGINEERING</span>
-        <span class="visual-badge">● Store</span>
-      </div>
-      <div class="pump-art">
-        <div class="pipe"></div>
-        <div class="pump"></div>
-        <div class="pump-base"></div>
-      </div>
-      <div class="visual-bottom">
-        <div><strong>Water Pump & Motor</strong><small>Reliable solutions for your needs</small></div>
-        <div class="water">💧</div>
-      </div>
-    </div>
-  </div>
+
+<div class="container hero-grid">
+
+<div>
+
+<div class="eyebrow">
+<span class="dot"></span>
+TRUSTED LOCAL STORE • SAHIWAL
+</div>
+
+<h1>
+Powering Your Needs With
+<span>Quality & Trust.</span>
+</h1>
+
+<p>
+Welcome to Ittefaq Boring Gase and Electric Store.
+Water pumps, boring supplies, hand pumps, motors,
+pipes and complete electric store products —
+everything you need under one roof.
+</p>
+
+<div class="actions">
+
+<a class="btn btn-primary" href="#products">
+Explore Products →
+</a>
+
+<a class="btn btn-outline" href="https://wa.me/923006907796?text=Assalam%20o%20Alaikum%2C%20mujhe%20aapke%20products%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">
+💬 Get a Quote
+</a>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<strong>01</strong>
+<span>Local Store</span>
+</div>
+
+<div class="stat">
+<strong>6+</strong>
+<span>Product Categories</span>
+</div>
+
+<div class="stat">
+<strong>📍</strong>
+<span>Sahiwal</span>
+</div>
+
+</div>
+
+</div>
+
+<div class="showcase">
+
+<div class="showcase-top">
+<span>ITTEFAQ • ENGINEERING</span>
+<span class="tag">● Available Products</span>
+</div>
+
+<div class="product-art">
+<div class="pipe"></div>
+<div class="pump"></div>
+<div class="base"></div>
+</div>
+
+<div class="showcase-bottom">
+<div>
+<strong>Water Pump & Motor</strong>
+<small>Reliable solutions for your needs</small>
+</div>
+<div class="water-icon">💧</div>
+</div>
+
+</div>
+
+</div>
+
 </section>
+
+<!-- PRODUCTS -->
 
 <section id="products">
-  <div class="container">
-    <div class="section-head">
-      <div class="label">Our Products & Services</div>
-      <h2>Everything You Need,<br>Under One Roof.</h2>
-      <p>Explore our main product categories and contact us for availability and prices.</p>
-    </div>
-    <div class="cards">
-      <div class="card">
-        <div class="card-icon">💧</div>
-        <h3>Water Pumps</h3>
-        <p>Water pumps, motor pumps aur pani ke liye zaroori equipment.</p>
-        <a href="https://wa.me/923006907796?text=Water%20pump%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Pumps →</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">⚙️</div>
-        <h3>Boring Services</h3>
-        <p>Water boring ke kaam ke liye supplies aur boring-related services.</p>
-        <a href="https://wa.me/923006907796?text=Boring%20service%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Contact for Boring →</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">🔩</div>
-        <h3>Hand Pump Parts</h3>
-        <p>Hand pump ke parts aur pani nikalne ke liye zaroori saman.</p>
-        <a href="https://wa.me/923006907796?text=Hand%20pump%20ke%20saman%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Parts →</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">🔌</div>
-        <h3>Electric Motors</h3>
-        <p>Motor pumps aur electric motor se related products.</p>
-        <a href="https://wa.me/923006907796?text=Electric%20motor%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Motors →</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">🪠</div>
-        <h3>Water Pipes</h3>
-        <p>Water pipe aur water supply system ka complete saman.</p>
-        <a href="https://wa.me/923006907796?text=Water%20pipes%20aur%20fittings%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Pipes →</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">🛠️</div>
-        <h3>Gase & Electric Store</h3>
-        <p>Gas cylinder aur electric store ka doosra available saman.</p>
-        <a href="https://wa.me/923006907796?text=Gase%20aur%20electric%20store%20ke%20saman%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Products →</a>
-      </div>
-    </div>
-  </div>
+
+<div class="container">
+
+<div class="section-head">
+<div class="label">Our Products</div>
+<h2>Everything You Need.<br>All In One Place.</h2>
+<p>
+Explore our main product categories.
+Contact us for prices and availability.
+</p>
+</div>
+
+<div class="products">
+
+<div class="product-card">
+<div class="product-image">💧</div>
+<div class="product-info">
+<h3>Water Pumps</h3>
+<p>Water pumps, motor pumps aur pani ke liye zaroori equipment.</p>
+<a href="https://wa.me/923006907796?text=Water%20pump%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Pumps →</a>
+</div>
+</div>
+
+<div class="product-card">
+<div class="product-image">⚙️</div>
+<div class="product-info">
+<h3>Boring Equipment</h3>
+<p>Water boring ke kaam ke liye supplies aur related saman.</p>
+<a href="https://wa.me/923006907796?text=Boring%20ke%20saman%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Equipment →</a>
+</div>
+</div>
+
+<div class="product-card">
+<div class="product-image">🔩</div>
+<div class="product-info">
+<h3>Hand Pump Parts</h3>
+<p>Hand pump ke parts aur pani nikalne ka zaroori saman.</p>
+<a href="https://wa.me/923006907796?text=Hand%20pump%20ke%20saman%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Parts →</a>
+</div>
+</div>
+
+<div class="product-card">
+<div class="product-image">🔌</div>
+<div class="product-info">
+<h3>Electric Motors</h3>
+<p>Motor pumps aur electric motor se related products.</p>
+<a href="https://wa.me/923006907796?text=Electric%20motor%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Motors →</a>
+</div>
+</div>
+
+<div class="product-card">
+<div class="product-image">🪠</div>
+<div class="product-info">
+<h3>Water Pipes</h3>
+<p>Water pipes aur water supply system ka saman.</p>
+<a href="https://wa.me/923006907796?text=Water%20pipes%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Pipes →</a>
+</div>
+</div>
+
+<div class="product-card">
+<div class="product-image">🛠️</div>
+<div class="product-info">
+<h3>Gase & Electric Supplies</h3>
+<p>Gas cylinder aur electric store ka doosra available saman.</p>
+<a href="https://wa.me/923006907796?text=Gase%20aur%20electric%20store%20ke%20saman%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">Ask About Products →</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section class="about" id="about">
-  <div class="container about-grid">
-    <div class="about-image">
-      <div class="big-icon">💧⚙️</div>
-      <div class="tag">Serving Gujjar Market, Sahiwal</div>
-    </div>
-    <div class="about-text">
-      <div class="section-head" style="text-align:left;margin:0">
-        <div class="label">About Our Store</div>
-        <h2>Your Local Water & Electric Supply Partner.</h2>
-      </div>
-      <p>
-        Ittefaq Boring Gase and Electric Store Gujjar Market,
-        Adda Shabeel, Sahiwal mein aapka local store hai.
-        Hum water pumps, boring ke saman, hand pump parts,
-        motors, pipes aur electric store products provide karte hain.
-      </p>
-      <div class="checks">
-        <div class="check"><b>✓</b> Water pumps aur motor pump supplies</div>
-        <div class="check"><b>✓</b> Boring aur hand pump ka saman</div>
-        <div class="check"><b>✓</b> Water pipes aur related fittings</div>
-        <div class="check"><b>✓</b> Direct WhatsApp inquiry</div>
-      </div>
-      <a class="btn btn-primary" href="#contact">Contact Our Store →</a>
-    </div>
-  </div>
+<!-- SERVICES -->
+
+<section class="services" id="services">
+
+<div class="container">
+
+<div class="section-head">
+<div class="label">What We Offer</div>
+<h2>Professional Store Services</h2>
+<p>Our main product and service categories.</p>
+</div>
+
+<div class="service-grid">
+
+<div class="service">
+<div class="service-icon">💧</div>
+<h3>Water Pump Supplies</h3>
+<p>Water pumps aur motor pumps ka saman.</p>
+</div>
+
+<div class="service">
+<div class="service-icon">🔧</div>
+<h3>Boring Work</h3>
+<p>Water boring se related supplies aur services.</p>
+</div>
+
+<div class="service">
+<div class="service-icon">🔌</div>
+<h3>Electric Products</h3>
+<p>Electric motors aur available store items.</p>
+</div>
+
+<div class="service">
+<div class="service-icon">🪠</div>
+<h3>Pipe Supplies</h3>
+<p>Water pipes aur related fittings.</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="contact" class="contact">
-  <div class="container contact-grid">
-    <div>
-      <div class="label" style="color:#64b5ff;font-size:12px;font-weight:800;letter-spacing:2px">GET IN TOUCH</div>
-      <h2>Let's Find the Right<br>Product for You.</h2>
-      <p>Product ki availability, price ya boring services ke liye hum se rabta karein.</p>
-      <div class="contact-card">
-        <div class="contact-item">
-          <div class="icon">📍</div>
-          <div><strong>Our Location</strong><span>Gujjar Market, Adda Shabeel, Sahiwal</span></div>
-        </div>
-        <div class="contact-item">
-          <div class="icon">📞</div>
-          <div><strong>Phone / WhatsApp</strong><span>0300 6907796</span></div>
-        </div>
-        <div class="contact-item">
-          <div class="icon">💧</div>
-          <div><strong>Our Speciality</strong><span>Water Pumps • Boring • Electric Supplies</span></div>
-        </div>
-      </div>
-    </div>
-    <div class="contact-box">
-      <h3>Need a Product?</h3>
-      <p>WhatsApp par message karein aur apni zaroorat batayein.</p>
-      <a class="btn btn-green" href="https://wa.me/923006907796?text=Assalam%20o%20Alaikum%2C%20Ittefaq%20Store%20se%20product%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">💬 Chat on WhatsApp</a>
-      <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Gujjar+Market+Adda+Shabeel+Sahiwal" target="_blank">📍 Get Directions</a>
-    </div>
-  </div>
+<!-- ABOUT -->
+
+<section id="about">
+
+<div class="container about-grid">
+
+<div class="about-visual">
+<div class="main-icon">💧⚙️</div>
+<div class="about-badge">📍 Gujjar Market, Sahiwal</div>
+</div>
+
+<div class="about-text">
+
+<div class="label">About Ittefaq Store</div>
+
+<h2>Your Local Water & Electric Supply Partner.</h2>
+
+<p>
+Ittefaq Boring Gase and Electric Store
+Gujjar Market, Adda Shabeel, Sahiwal mein
+aapka local store hai.
+</p>
+
+<p>
+Hum water pumps, boring ka saman, hand pump parts,
+motors, pipes aur electric store products provide karte hain.
+</p>
+
+<div class="checks">
+
+<div class="check"><b>✓</b> Water pumps aur motor pump supplies</div>
+
+<div class="check"><b>✓</b> Boring aur hand pump ka saman</div>
+
+<div class="check"><b>✓</b> Water pipes aur related fittings</div>
+
+<div class="check"><b>✓</b> Direct WhatsApp inquiry</div>
+
+</div>
+
+<a class="btn btn-primary" href="#contact">Contact Our Store →</a>
+
+</div>
+
+</div>
+
 </section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<div class="container contact-grid">
+
+<div>
+
+<div class="label" style="color:#35c8ff">GET IN TOUCH</div>
+
+<h2>Let's Find The Right Product For You.</h2>
+
+<p>
+Product ki availability, price ya boring services
+ke liye hum se rabta karein.
+</p>
+
+<div class="contact-list">
+
+<div class="contact-item">
+<div class="icon">📍</div>
+<div>
+<strong>Our Location</strong>
+<span>Gujjar Market, Adda Shabeel, Sahiwal</span>
+</div>
+</div>
+
+<div class="contact-item">
+<div class="icon">📞</div>
+<div>
+<strong>Phone / WhatsApp</strong>
+<span>0300 6907796</span>
+</div>
+</div>
+
+<div class="contact-item">
+<div class="icon">💧</div>
+<div>
+<strong>Our Speciality</strong>
+<span>Water Pumps • Boring • Electric Supplies</span>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="contact-box">
+
+<h3>Need A Product?</h3>
+
+<p>
+WhatsApp par message karein aur apni zaroorat batayein.
+</p>
+
+<a class="btn btn-green" href="https://wa.me/923006907796?text=Assalam%20o%20Alaikum%2C%20Ittefaq%20Store%20se%20product%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">
+💬 Chat On WhatsApp
+</a>
+
+<a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Gujjar+Market+Adda+Shabeel+Sahiwal" target="_blank">
+📍 Get Directions
+</a>
+
+</div>
+
+</div>
+
+</section>
+
 </main>
 
 <a class="whatsapp" href="https://wa.me/923006907796" target="_blank" aria-label="Chat on WhatsApp">💬</a>
 
 <footer>
-  <div class="container footer-inner">
-    <div><strong>Ittefaq Boring Gase and Electric Store</strong><br>Gujjar Market, Adda Shabeel, Sahiwal</div>
-    <div>© <span id="year"></span> Ittefaq Store. All Rights Reserved.</div>
-  </div>
+<div class="container footer-inner">
+<div>
+<strong>ITTEFAQ BORING GASE AND ELECTRIC STORE</strong><br>
+Gujjar Market, Adda Shabeel, Sahiwal
+</div>
+<div>© <span id="year"></span> Ittefaq Store. All Rights Reserved.</div>
+</div>
 </footer>
 
 <script>
+
 const menu=document.getElementById("menu");
 const nav=document.getElementById("navlinks");
+
 menu.addEventListener("click",()=>{
-  nav.classList.toggle("show");
+nav.classList.toggle("show");
 });
+
 document.querySelectorAll(".navlinks a").forEach(link=>{
-  link.addEventListener("click",()=>nav.classList.remove("show"));
+link.addEventListener("click",()=>{
+nav.classList.remove("show");
 });
+});
+
 document.getElementById("year").textContent=new Date().getFullYear();
+
 </script>
+
 </body>
   </html>
   
